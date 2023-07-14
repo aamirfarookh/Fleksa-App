@@ -1,0 +1,56 @@
+.home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .home nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .home img {
+    width: 200px;
+    height: 150px;
+  }
+  
+  .home ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .home li {
+    margin: 0 10px;
+  }
+  
+  .home li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home li a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .home li a:active {
+    background-color: #ddd;
+  }
+  
+  .home li a:focus {
+    outline: none;
+  }
+  
